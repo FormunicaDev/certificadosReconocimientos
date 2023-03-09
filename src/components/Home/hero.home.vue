@@ -1,15 +1,14 @@
 <template>
   <div>
    <v-row align="center" justify="center" class="hero" no-gutters>
-       <v-col cols="12" xl="2" lg="2" />
+       <v-col cols="12" xl="2" lg="2"></v-col>
        <v-col cols="12" xl="8" lg="8">
          <v-container>
             <p class="font-1  font-title white--text">Formuladora Nicaraguense Hanon Talavera</p>
-          <p class="font-4 font-desc  white--text">Reconocimiento al valor Formunica</p>
+            <p class="font-4 font-desc  white--text">Reconocimiento al valor Formunica</p>
          </v-container>
        </v-col>
        <v-col cols="12" xl="2" lg="2" />
-
     </v-row>
   </div>
 </template>
@@ -27,9 +26,9 @@
 </script>
 <style>
 .hero{
-  height :50vh;
+  height :70vh;
   width: 100%;
-  background: url('../../assets/images/vue-mk-header.jpg');
+  background: url('../../assets/images/arrocera.jpg');
   background-size: cover;
 }
 .font-title{

@@ -13,13 +13,16 @@
             <v-card-text>
                 <v-row>
                     <v-col cols="6">
-                        <v-text-field
+                        <v-autocomplete
                             v-model="reconocimientoObj.EmpleadoEnvio"
                             dense
                             outlined
+                            :items="empleadoObj"
+                            item-text="nombre"
+                            item-value="nombre"
                             label="¿Quien brinda este reconocimiento?"
                         >
-                        </v-text-field>
+                        </v-autocomplete>
                     </v-col>
                     <v-col cols="6">
                         <v-autocomplete
